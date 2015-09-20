@@ -14,6 +14,7 @@ ____
 
 ###E-R DIAGRAM
 
+The diagram shows the relationship between elements. It's also what we create inside the MySQL database.
 
 ![ER](./InfoImage/Relation.jpg "ER Diagram")
 
@@ -81,6 +82,19 @@ Our application will recommend based on all of users he/she followed, bands fann
   Each user has a trust score. Its value is determined by the register time, number of rates, number of posts, and etc.
   
   With low trust score, users will have limited behavior, such as they cannot post concerts, rating concerts, or make comments.
+
+
+____
+
+###DOCUMENTS
+
+ * blog.sql
+ 
+ It contains the query for creating the database, and a set of data for testing our application
+
+ * index.php
+ 
+ It is the first page when user visit our website
 
 
 ____
